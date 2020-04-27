@@ -13,6 +13,8 @@ In this project, we will analyze data from the US Census, American Community Sur
 2) Is there a correlation between hospital resources and population make-up?
 
 ## Data Analysis
+By creating bubble charts of the percentage of the population over 60 years old on the x-axis, the percentage of the population under 18 on the y-axis, and the size of the scatter point corresponding to the number of hospital beds available in that county or the number of hospital beds available per 1000 people, we can get an idea of what counties might be most vulnerable to becoming overwhelmed by the COVID-19 pandemic.
+
 Based on the analysis, we can summarize our findings:
 1) Hospital count and hospital bed count are closely related to the population of male and female over 60 years old and under 18 years old. 
 2) Generally, most counties have around 20%-25% of its population under 18 and around 17%-25% of its population over 60 and those counties have the highest per-capita count for hospitals and hospital beds. 
@@ -22,7 +24,7 @@ Based on the analysis, we can summarize our findings:
 
 
 ## Conclusion
-Based on the cluster analysis, we can summarize our findings as the following points: 1) students who attend large-scale community colleges tend to come from families with lower household income, but the social mobility rate of those schools tend to be the highest; whereas small colleges with relatively high parent income and more parents in the top 1% have the lowest mobility rate; 2) medium-size colleges/universities with average parent income has an average social mobility rate; 3) Although the mobility rate of larger universities and medium-size elite universities are the same, universities with higher rankings have a higher upper-tail mobility rate, which means that the percentage of students who have parents in the Bottom 20% of the income distribution and reach the Top 1% of the income distribution is the highest of all.
+
 
 ## Additional Links
 1) Data Source: https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis
