@@ -16,6 +16,9 @@ In this project, we will analyze data from the US Census, American Community Sur
 By creating bubble charts of the percentage of the population over 60 years old on the x-axis, the percentage of the population under 18 on the y-axis, and the size of the scatter point corresponding to the number of hospital beds available in that county per 1000 people, we can get an idea of what counties might be most vulnerable to becoming overwhelmed by the COVID-19 pandemic.
 ![](Bed_counts_per_1000.png)
 
+![](Beds.png)
+![](Highest_pop.png)
+
 We also created a heatmap that shows the correlation between different factors in our dataset. Based on the heatmap, we can summarize our findings:
 1) Hospital count and hospital bed count are closely related to the population of male and female over 60 years old and under 18 years old. 
 2) Generally, most counties have around 20%-25% of its population under 18 and around 17%-25% of its population over 60 and those counties have the highest per-capita count for hospitals and hospital beds. 
