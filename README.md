@@ -9,15 +9,17 @@ In this project, we will analyze data from the US Census, American Community Sur
 2) How should different counties adjust their policies to limit the spread of the virus and ensure that enough resources are prepared for the patients?
 
 ### Data Question 
-1) Which counties are most populated in the U.S.?
+1) Which counties are most populated in the U.S.? Which counties have the least number of hospital beds available per 1000 people?
 2) Is there a correlation between hospital resources and population make-up?
 
 ## Data Analysis
-By creating bubble charts of the percentage of the population over 60 years old on the x-axis, the percentage of the population under 18 on the y-axis, and the size of the scatter point corresponding to the number of hospital beds available in that county per 1000 people, we can get an idea of what counties might be most vulnerable to becoming overwhelmed by the COVID-19 pandemic.
+First, we sorted out counties that have the most population and those with the least amount of hospital beds per 1000 people in the U.S. The counties and their population/ counts of hospital beds per 1000 people are shown below:
+![](Highest_pop.png)
+![](Beds.png)
+
+Next, we created a bubble chart of the percentage of the population over 60 years old on the x-axis, the percentage of the population under 18 on the y-axis, and the size of the scatter point corresponding to the number of hospital beds available in that county per 1000 people. Based on the chart, we can predict that counties with high percentage of population over 60 years old with few utilities (smaller bubbles in the chart) might be most vulnerable to becoming overwhelmed by the COVID-19 pandemic.
 ![](Bed_counts_per_1000.png)
 
-![](Beds.png)
-![](Highest_pop.png)
 
 We also created a heatmap that shows the correlation between different factors in our dataset. Based on the heatmap, we can summarize our findings:
 1) Hospital count and hospital bed count are closely related to the population of male and female over 60 years old and under 18 years old. 
